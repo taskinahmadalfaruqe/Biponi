@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="border-t border-borderColor py-5 text-[#b8b8b8] mt-8">
+    <div className="border-t border-borderColor py-5 bg-[#f5f5f5] text-[#b8b8b8] ">
       <div className="container flex items-center justify-between text-[11px] md:text-xl">
         <p>&copy;2018–2024 Yandex Eats LLC</p>
         <div className="flex items-center justify-center gap-1">

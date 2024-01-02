@@ -1,11 +1,14 @@
 import { GrLanguage } from "react-icons/gr";
+import logo from '../assets/logo.png'
 const Navbar = () => {
   return (
     <div className="bg-[#F5F4F2] border-b border-borderColor py-3 text-[10px] md:text-[17px]">
       <div className="container">
         <div className="flex justify-between">
           <div className="flex gap-2 items-center">
-            <div>Logo</div>
+            <div>
+              <img src={logo} alt="logo" />
+            </div>
             <div className="border border-borderColor p-1 rounded-md">
               <form className="bg-transparent">
                 <select name="Address" className="bg-transparent ">

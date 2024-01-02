@@ -9,8 +9,8 @@ export default {
       container: {
         center: true,
         padding: {
-          DEFAULT: '10px',
-          sm: '10px',
+          DEFAULT: '0px',
+          sm: '5px',
           lg: '10px',
           xl: '1rem',
           '2xl': '1rem',
@@ -18,9 +18,10 @@ export default {
       },
       colors: {
         'borderColor': '#D2D0CC',
-        'cardColor': '#fff',
+        'whiteColor': '#fff',
         'bgColor': '#E7E6E4',
         'GreenColor': '#5ac31a',
+        'HedingColor': '#21201F',
       },
     },
 
