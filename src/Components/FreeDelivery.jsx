@@ -15,5 +15,4 @@ const FreeDelivery = () => {
     </div>
   );
 };
-
 export default FreeDelivery;

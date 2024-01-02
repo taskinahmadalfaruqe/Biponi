@@ -17,56 +17,95 @@ const MainNavbar = () => {
             <li className="w-[100%]">
               <NavLink
                 to="/"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-1 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-1 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
+              >
+                All Items
+              </NavLink>
+            </li>
+            <li className="w-[100%]">
+              <NavLink
+                to="/newItems"
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-1 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 New items
               </NavLink>
-              
             </li>
             <li>
-            <NavLink
+              <NavLink
                 to="/comboBaskets"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 Combo Baskets
               </NavLink>
             </li>
             <li>
-            <NavLink
+              <NavLink
                 to="/juicyChicken"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 Juicy chicken
               </NavLink>
             </li>
             <li>
-            <NavLink
+              <NavLink
                 to="/snacks"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 Snacks
               </NavLink>
             </li>
             <li>
-            <NavLink
+              <NavLink
                 to="/combo"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 Combo
               </NavLink>
             </li>
             <li>
-            <NavLink
+              <NavLink
                 to="/beverages"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 Beverages
               </NavLink>
             </li>
             <li>
-            <NavLink
+              <NavLink
                 to="/additionally"
-                className={({ isActive }) => (isActive ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]" : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]")}
+                className={({ isActive }) =>
+                  isActive
+                    ? "active flex rounded-md px-1 py-2 bg-whiteColor w-[100%]"
+                    : " flex rounded-md px-0 md:px-2 py-2 hover:bg-whiteColor w-[100%]"
+                }
               >
                 Additionally
               </NavLink>

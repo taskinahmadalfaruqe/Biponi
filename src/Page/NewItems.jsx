@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import FoodLode from "../Components/FoodLode";
+import PropTypes from 'prop-types'
 
-const NewItems = () => {
+const NewItems = ({handelItem}) => {
   const [food, setFood] = useState([]);
   useEffect(() => {
     fetch("/newproduct.json")
@@ -15,11 +16,15 @@ const NewItems = () => {
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4  gap-2 items-start justify-center">
         {food.map((singledata) => (
-          <FoodLode key={singledata.hex_id} singledata={singledata}></FoodLode>
+          <FoodLode key={singledata.hex_id} singledata={singledata} handelItem={handelItem}></FoodLode>
         ))}
       </div>
     </div>
   );
 };
 
-export default NewItems;
+NewItems.propTypes = {
+  handelItem: PropTypes.func
+}
+
+export default NewItems
