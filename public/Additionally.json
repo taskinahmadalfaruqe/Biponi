@@ -1,0 +1,20 @@
+[
+    {
+      "image": "https://i.ibb.co/Wz51Ch3/apa01.jpg",
+      "hex_id": "A1B2C3D4E5apa",
+      "food_name": "Garlic sauce",
+      "price": "$8.99"
+    },
+    {
+      "image": "https://i.ibb.co/KjMg2QG/apa02.jpg",
+      "hex_id": "FFAABBCC99apa",
+      "food_name": "Cheese sauce",
+      "price": "$6.49"
+    },
+    {
+      "image": "https://i.ibb.co/jhDNC5J/apa03.jpg",
+      "hex_id": "1234567890apa",
+      "food_name": "Ketchup",
+      "price": "$15.79"
+    }
+  ]

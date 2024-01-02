@@ -1,0 +1,22 @@
+[
+    {
+      "image": "https://i.ibb.co/W3k9Kkj/KFC15.png",
+      "hex_id": "A1B2C3D4E5Snaks",
+      "food_name": "Hashbrown",
+      "price": "$8.99"
+    },
+    {
+      "image": "https://i.ibb.co/GswVVgm/KFC12.jpg",
+      "hex_id": "FFAABBCC99Snaks",
+      "food_name": "France Fry Small",
+      "price": "$6.49"
+    },
+    {
+      "image": "https://i.ibb.co/KrjkV87/KFC11.jpg",
+      "hex_id": "1234567890Snaks",
+      "food_name": "France Fry Big",
+      "price": "$15.79"
+    }
+]
+  
+  

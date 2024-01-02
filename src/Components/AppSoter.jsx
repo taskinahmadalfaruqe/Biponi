@@ -3,9 +3,9 @@ import { FaApple } from "react-icons/fa6";
 
 const AppSoter = () => {
   return (
-    <div className="border-t border-borderColor py-5 bg-[#f5f5f5]">
+    <div className="border-t border-borderColor py-5 bg-[#f5f5f5] mt-8">
       <div className="container">
-        <h2 className="text-[#1e1e1e] font-medium  text-xl md:text-2xl">
+        <h2 className="text-HedingColor font-medium  text-xl md:text-2xl">
           Even easier in the app
         </h2>
         <div className="flex gap-5 pt-5">

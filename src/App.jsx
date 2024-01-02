@@ -2,12 +2,18 @@ import AppSoter from "./Components/AppSoter";
 import Banner from "./Components/Banner";
 import Cart from "./Components/Cart";
 import CompanyInformation from "./Components/CompanyInformation";
-import FoodLode from "./Components/FoodLode";
 import Footer from "./Components/Footer";
 import FreeDelivery from "./Components/FreeDelivery";
 import MainNavbar from "./Components/MainNavbar";
 import Navbar from "./Components/Navbar";
 import { BiSolidMessageRoundedDots } from "react-icons/bi";
+import NewItems from "./Page/NewItems";
+import ComboBusket from "./Page/ComboBusket";
+import JucyChicken from "./Page/JucyChicken";
+import Snaks from "./Page/Snaks";
+import Combo from "./Page/Combo";
+import Beverages from "./Page/Beverages";
+import Additionally from "./Page/Additionally";
 
 const App = () => {
   return (
@@ -23,7 +29,13 @@ const App = () => {
         <div className="col-span-4 xl:col-span-3">
           <Banner></Banner>
           <FreeDelivery></FreeDelivery>
-          <FoodLode></FoodLode>
+          <NewItems></NewItems>
+          <ComboBusket></ComboBusket>
+          <JucyChicken></JucyChicken>
+          <Snaks></Snaks>
+          <Combo></Combo>
+          <Beverages></Beverages>
+          <Additionally></Additionally>
         </div>
 
         <div className="col-span-1 hidden xl:flex  bg-white rounded-t-3xl p-5 h-[100vh]">

@@ -1,0 +1,26 @@
+[
+    {
+      "image": "https://i.ibb.co/R3y6WMH/KFC10.jpg",
+      "hex_id": "A1B2C3D4E5Chi",
+      "food_name": "Zesty Chicken",
+      "price": "$8.99"
+    },
+    {
+      "image": "https://i.ibb.co/H4ttVSg/KFC14.jpg",
+      "hex_id": "FFAABBCC99chi",
+      "food_name": "Crispy Twister Wrap",
+      "price": "$6.49"
+    },
+    {
+      "image": "https://i.ibb.co/ZLf5MPc/KFC13.jpg",
+      "hex_id": "1234567890chi",
+      "food_name": "BBQ Bucket",
+      "price": "$15.79"
+    },
+    {
+      "image": "https://i.ibb.co/HnNTL27/KFC03.jpg",
+      "hex_id": "12345678Achi",
+      "food_name": "BBQ Bucket",
+      "price": "$15.79"
+    }
+  ]
